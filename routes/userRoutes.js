@@ -16,3 +16,8 @@ router.post(
   [authMiddleware.authenticate, validationMiddleware.validateUser],
   userController.createUser
 );
+router.put(
+  "/user/:userId",
+  [authMiddleware.authenticate, validationMiddleware.validateUser],
+  userController.updateUser
+);
