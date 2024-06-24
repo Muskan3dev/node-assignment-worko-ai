@@ -6,3 +6,8 @@ const validationMiddleware = require("../middlewares/validationMiddleware");
 const router = express.Router();
 
 router.get("/user", authMiddleware.authenticate, userController.listUsers);
+router.get(
+  "/user/:userId",
+  authMiddleware.authenticate,
+  userController.getUser
+);
