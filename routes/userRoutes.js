@@ -21,3 +21,8 @@ router.put(
   [authMiddleware.authenticate, validationMiddleware.validateUser],
   userController.updateUser
 );
+router.delete(
+  "/user/:userId",
+  authMiddleware.authenticate,
+  userController.deleteUser
+);
