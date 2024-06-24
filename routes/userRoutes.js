@@ -26,3 +26,5 @@ router.delete(
   authMiddleware.authenticate,
   userController.deleteUser
 );
+
+module.exports = router;
