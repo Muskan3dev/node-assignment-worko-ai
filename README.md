@@ -37,7 +37,7 @@ Running the API
 1.Start the server:
 
 npm start
-The server will be running on http://localhost:3339.
+
 
 2.Running Tests
 
