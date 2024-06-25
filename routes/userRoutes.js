@@ -11,11 +11,7 @@ router.get(
   authMiddleware.authenticate,
   userController.getUser
 );
-router.post(
-  "/user",
-  [authMiddleware.authenticate, validationMiddleware.validateUser],
-  userController.createUser
-);
+router.post("/user", userController.createUser);
 router.put(
   "/user/:userId",
   [authMiddleware.authenticate, validationMiddleware.validateUser],
