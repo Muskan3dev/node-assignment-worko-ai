@@ -97,13 +97,13 @@ MongoDB
 
 Mongoose
 
-
-API Documentation:
-
-Find detailed API documentation here: https://documenter.getpostman.com/view/28169578/2sA3drGtvX
-
 JWT
 
 Supertest
 
 Jest
+
+
+API Documentation:
+
+Find detailed API documentation here: https://documenter.getpostman.com/view/28169578/2sA3drGtvX
