@@ -1,5 +1,4 @@
-import { User } from "../models/userModel";
-
+const User = require("../models/userModel");
 exports.listUsers = async () => {
   return await User.find({ isDeleted: false });
 };
