@@ -1,4 +1,4 @@
- # User API
+ # User Management API
 
 This is a simple User API built with Node.js, Express, and MongoDB. The API allows you to list all users, get user details by ID, and create a new user,update user details and delete user.
 
