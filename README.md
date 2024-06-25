@@ -15,29 +15,31 @@ This is a simple User API built with Node.js, Express, and MongoDB. The API allo
 
   
 git clone https://github.com/yourusername/user-api.git
-Navigate to the project directory:
 
-
+2. Navigate to the project directory:
 
 cd user-api
-Install the dependencies:
 
+
+3.Install the dependencies:
 
 npm install
-Create a .env file in the root directory and add your MongoDB URI and JWT secret:
 
+
+4.Create a .env file in the root directory and add your MongoDB URI and JWT secret:
 
 DB_URI=your_mongodb_uri
+
 JWT_SECRET=your_jwt_secret
 
 
 Running the API
-Start the server:
+1.Start the server:
 
 npm start
 The server will be running on http://localhost:3339.
 
-Running Tests
+2.Running Tests
 
 
 To run the tests, use the following command:
