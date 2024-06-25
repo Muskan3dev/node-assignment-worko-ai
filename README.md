@@ -34,6 +34,7 @@ JWT_SECRET=your_jwt_secret
 
 
 Running the API
+
 1.Start the server:
 
 npm start
@@ -87,6 +88,7 @@ Response:
 201 Created - Returns the created user's token
 
 Technologies Used
+
 Node.js
 
 Express
@@ -94,6 +96,11 @@ Express
 MongoDB
 
 Mongoose
+
+
+API Documentation:
+
+Find detailed API documentation here: https://documenter.getpostman.com/view/28169578/2sA3drGtvX
 
 JWT
 
